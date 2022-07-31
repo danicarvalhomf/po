@@ -1,1 +1,1 @@
-# Exemplos e exercios em PO.
+# Exemplos e exerccios em PO.
