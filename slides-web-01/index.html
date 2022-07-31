@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Introdução à Otimização de Sistemas Computacionais </title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script> 
+    <link rel="stylesheet" href="styles.css" />
+
+    <py-env>
+        - matplotlib
+        - numpy
+    </py-env>
+    
+
+</head>
+
+<body id="the_body">
+
+<header>
+<h1>Pesquisa Operacional</h1>
+</header>
+<main>
+
+    <py-script> 
+
+        from datetime import datetime
+        import numpy as np
+        now = datetime.now()
+        now.strftime("%m/%d/%Y, %H:%M:%S")
+    </py-script>|
+
+    <h2>Exemplo 01</h2>
+    O modelo pode ser simples ou complexo, dependendo da realidade que ele
+retrata. Um modelo simples é o seguinte: José ganha R$30 por hora
+trabalhada. Modele o salário de José em função das horas trabalhadas.
+
+
+
+<py-repl></py-repl>
+
+<h2>Exemplo 02</h2>
+
+<p>Agora tente modelar o seguinte:</p>
+<p>José ganha $30 por hora trabalhada e tem retido na fonte 10% do seu
+salário. Modele o salário líquido de José, isto é, o salário que ele vai receber
+efetivamente, em função das horas trabalhadas.</p>
+<py-repl></py-repl>
+
+</main>
+
+ <img id="imgfooter" src="imgs/chart.svg" />
+
+<section id="refs">
+    <h2>Referências</h2>
+
+    <ul>
+        <li>GOLDBARG, M. C. et. al.. <b>Otimização Combinatória e Programação Linear:</b> modelos e algoritmos.</li>
+        <li>MEIRELES, M.; TIOSSI, L. L. <b>O Método Simplex</b>. Rio de Janeiro: Kaizentools, 2016.</li>
+        <li>RAGSDALE, Cliff T. <b>Modelagem de planilha e análise de decisão uma introdução prática a business
+            analytics </b> (tradução da 7a edição norte-americana). 2. São Paulo: Cengage Learning, 2014.</li>
+    </ul>
+</section>
+
+</body>
+
+</html>
